@@ -128,7 +128,7 @@ public class MainActivity extends Activity {
         casa.add("Tomar banho");
         casa.add("Preparar sanduíche");
         casa.add("Ligar pra os bombeiros");
-     
+
 
         List<String> medico = new ArrayList<String>();
         medico.add("Fono");
