@@ -109,37 +109,36 @@ public class MainActivity extends Activity {
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data
-        listDataHeader.add("Top 250");
-        listDataHeader.add("Now Showing");
-        listDataHeader.add("Coming Soon..");
+        listDataHeader.add("Sem categoria");
+        listDataHeader.add("Casa");
+        listDataHeader.add("Médico");
 
         // Adding child data
-        List<String> top250 = new ArrayList<String>();
-        top250.add("The Shawshank Redemption");
-        top250.add("The Godfather");
-        top250.add("The Godfather: Part II");
-        top250.add("Pulp Fiction");
-        top250.add("The Good, the Bad and the Ugly");
-        top250.add("The Dark Knight");
-        top250.add("12 Angry Men");
+        List<String> semCategoria = new ArrayList<String>();
+        semCategoria.add("Doutora fátima");
+        semCategoria.add("Shopping Recife");
+        semCategoria.add("Disney");
+        semCategoria.add("Ver a avó");
+        semCategoria.add("Andar de cavalo");
+        semCategoria.add("Ir ao parque");
+        semCategoria.add("Cortar o Cabelo");
 
-        List<String> nowShowing = new ArrayList<String>();
-        nowShowing.add("The Conjuring");
-        nowShowing.add("Despicable Me 2");
-        nowShowing.add("Turbo");
-        nowShowing.add("Grown Ups 2");
-        nowShowing.add("Red 2");
-        nowShowing.add("The Wolverine");
+        List<String> casa = new ArrayList<String>();
+        casa.add("Escovar os dentes");
+        casa.add("Tomar banho");
+        casa.add("Preparar sanduíche");
+        casa.add("Ligar pra os bombeiros");
+     
 
-        List<String> comingSoon = new ArrayList<String>();
-        comingSoon.add("2 Guns");
-        comingSoon.add("The Smurfs 2");
-        comingSoon.add("The Spectacular Now");
-        comingSoon.add("The Canyons");
-        comingSoon.add("Europa Report");
+        List<String> medico = new ArrayList<String>();
+        medico.add("Fono");
+        medico.add("Dentista");
+        medico.add("Tirar sangue");
 
-        listDataChild.put(listDataHeader.get(0), top250); // Header, Child data
-        listDataChild.put(listDataHeader.get(1), nowShowing);
-        listDataChild.put(listDataHeader.get(2), comingSoon);
+
+
+        listDataChild.put(listDataHeader.get(0), semCategoria); // Header, Child data
+        listDataChild.put(listDataHeader.get(1), casa);
+        listDataChild.put(listDataHeader.get(2), medico);
     }
 }
